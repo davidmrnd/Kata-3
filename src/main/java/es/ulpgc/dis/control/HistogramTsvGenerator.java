@@ -8,8 +8,8 @@ import java.util.Map;
 
 public class HistogramTsvGenerator implements Histogram {
 
-    private List<Movie> movies;
-    private GenreFrequencyProcessor processor;
+    private final List<Movie> movies;
+    private final GenreFrequencyProcessor processor;
 
     public HistogramTsvGenerator(List<Movie> movies) {
         this.movies = movies;
